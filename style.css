@@ -85,7 +85,7 @@ h2{
   background: var(--main-color);
   border-radius:3rem;
   box-shadow: #ff9f0d 0px 1px 25px;
-  
+  display: none;
 }
 
 .nav-icons i{
@@ -96,8 +96,7 @@ h2{
     margin-left: 5px;
     cursor: pointer;
     z-index: 100001;
-
-    
+    display: none;
 }
 
 #menu-icon {
@@ -565,7 +564,7 @@ header.sticky{
     }
 }
 @media (max-width:1076px){
-    .menu-icon{
+    .nav-icons{
         display: initial;
     }
     .navlist{
