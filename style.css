@@ -96,7 +96,7 @@ h2{
     margin-left: 5px;
     cursor: pointer;
     z-index: 100001;
-    
+
     
 }
 
@@ -501,6 +501,40 @@ header.sticky{
     background: var(--main-color);
     padding: 10px;
     border-radius: 1rem;
+}
+
+.social-link{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.social-link a{
+    font-size: 40px;
+    color:var(--main-color);
+    margin: 0 20px;
+    vertical-align: middle;
+}
+
+.deve{
+    color: var(--main-color);
+}
+
+.deve img{
+    margin: 5px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.footer{
+    padding: 100px 0 70 0;
+    text-align: center;
+}
+
+.footer h3{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 @media (max-width:1545px){
