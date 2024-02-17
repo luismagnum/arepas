@@ -18,8 +18,8 @@
     --second-color:#9e9e9e;
     --bg-color:#111;
 
-    --big-font: 3rem;
-    --h2-font: 2.6rem;
+    --big-font: 3.5rem;
+    --h2-font: 2.8rem;
     --p-font:1.1rem;
 }
 
@@ -122,13 +122,13 @@ section{
 }
 
 .home-img img{
-    width: 450px;
+    width: 500px;
     height: auto;
 }
 
 .home-text h1{
     font-size: var(--big-font);
-    font-weight: 500;
+    font-weight: 600;
     line-height: 1;
     margin-bottom: 3rem;
 }
@@ -646,7 +646,7 @@ header.sticky{
 }
 @media (max-width:465px){
     :root{
-        --big-font:2.8rem;
+        --big-font:2rem;
         --h2-font:2rem;
     }
 }
