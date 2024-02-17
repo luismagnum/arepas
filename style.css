@@ -18,7 +18,7 @@
     --second-color:#9e9e9e;
     --bg-color:#111;
 
-    --big-font: 4rem;
+    --big-font: 3rem;
     --h2-font: 2.6rem;
     --p-font:1.1rem;
 }
@@ -122,13 +122,13 @@ section{
 }
 
 .home-img img{
-    width: 500px;
+    width: 450px;
     height: auto;
 }
 
 .home-text h1{
     font-size: var(--big-font);
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1;
     margin-bottom: 3rem;
 }
@@ -469,7 +469,11 @@ header.sticky{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 3rem;
+    gap: 3rem; 
+}
+
+.details a:hover{
+    color: var(--main-color);
 }
 
 .main-d a{
