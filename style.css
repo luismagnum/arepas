@@ -126,7 +126,7 @@ section{
 }
 
 .home-img img{
-    width: 500px;
+    width: 250px;
     height: auto;
 }
 
@@ -603,7 +603,7 @@ header.sticky{
     }
     .home-img img{
         width: 100%;;
-        max-width: 400px;
+        max-width: 250px;
         height: auto;
     }
     .about-img img{
